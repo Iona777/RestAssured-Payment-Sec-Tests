@@ -1,0 +1,9 @@
+# This file is used to declare the 'environment' variable. This is how the environment-config-library selects the
+# properties file to load properties from when the 'ConfigManager.loadConfig();' method call is made.
+#
+# When deploying to an environment, we should instead inject this via mvn, eg:
+#          mvn test -Dpps.qa.environment=pox06
+#
+# See the qa-environment-config-lib repository here for more info (and for the properties defined):
+# https://bitbucket.pps-int.com/projects/QA/repos/qa-environment-config-lib/browse
+environment: local
